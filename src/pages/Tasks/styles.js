@@ -44,6 +44,7 @@ export const InputCheckField = styled.label`
         gap: 16px;
         position: relative;
         > span{
+            left: 36px;
             position: absolute;
             background: white;
             border: 1px solid #139cea;

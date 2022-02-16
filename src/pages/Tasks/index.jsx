@@ -1,7 +1,7 @@
 import React from 'react';
 import { Title, Page, InputTaskField, InputCheckField } from './styles.js'
 import { AiOutlinePlusCircle } from 'react-icons/ai'
-// import { BsTrash } from 'react-icons/bs'
+import { BsTrash } from 'react-icons/bs'
 
 function InputTask(){
     return(
@@ -15,6 +15,7 @@ function InputTask(){
 function InputCheck(){
     return(
         <InputCheckField htmlFor="checkInput">
+            <BsTrash/>
             <input type="checkbox" id="checkInput" placeholder="Add a new task" />
             <span/>teste
         </InputCheckField>
